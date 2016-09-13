@@ -55,7 +55,7 @@
     <platform name="android">
       <source-file src="src/android/IntercomBridge.java" target-dir="src/io/intercom/android/sdk" />
       <source-file src="src/android/CordovaHeaderInterceptor.java" target-dir="src/io/intercom/android/sdk" />
-
+      <framework src="com.google.android.gms:play-services-gcm:+" /> 
       <framework src="src/android/intercom.gradle" custom="true" type="gradleReference" />
       <framework src="src/android/build-extras-intercom.gradle" custom="true" type="gradleReference" />
 
